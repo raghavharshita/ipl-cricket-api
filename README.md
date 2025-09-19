@@ -24,29 +24,29 @@ The API uses ball-by-ball and match-level data (fetched from Google Sheets) to g
 
 * Root
 
-    - GET /
+    - GET /<br>
     Returns a simple hello message.
 
 * Teams
 
-    - GET /api/teams
+    - GET /api/teams<br>
     Returns a list of all IPL teams.
 
-    - GET /api/teamVteam?team1=<team1>&team2=<team2>
+    - GET /api/teamVteam?team1=<team1>&team2=<team2><br>
     Returns head-to-head record between two teams.
 
-    - GET /api/team-record?team=<team>
+    - GET /api/team-record?team=<team><br>
     Returns overall record of a given team.
 
-    - GET /api/teamAPI?team=<team>
+    - GET /api/teamAPI?team=<team><br>
     Returns team’s record overall and against every opponent.
 
 * Batting
 
-    - GET /api/batting-record?batsman=<player_name>
+    - GET /api/batting-record?batsman=<player_name><br>
     Returns career stats and vs-team breakdown for the given batsman.
 
 * Bowling
 
-    - GET /api/bowler-record?bowler=<player_name>
+    - GET /api/bowler-record?bowler=<player_name><br>
     Returns career stats and vs-team breakdown for the given bowler.
